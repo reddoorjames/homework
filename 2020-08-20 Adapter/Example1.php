@@ -107,3 +107,6 @@ $XiWinnie->crawl();
 
 //習維尼說話
 $XiWinnie->growl();
+
+
+// 例子不適用

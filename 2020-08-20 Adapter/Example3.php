@@ -98,3 +98,5 @@ class LogisticsService
         $this->LogisticsCompany->calculateShippingFee($file_path);
     }
 }
+
+// 沒實例

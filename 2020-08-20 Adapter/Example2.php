@@ -226,3 +226,7 @@ $CloudStorageService->getFile();
 $CloudStorageService->copyFile();
 $CloudStorageService->removeFile();
 
+// 要能執行 config
+// $this->AWSSDK $this->GCP 改成$this->SDK
+// CloudServiceSDK 要改成 CloudServiceAdapter
+// CloudStorageService::__construct() 加上switch case 控制
